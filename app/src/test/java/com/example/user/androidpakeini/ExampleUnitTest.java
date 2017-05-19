@@ -12,6 +12,15 @@ import static org.junit.Assert.*;
 public class ExampleUnitTest {
     @Test
     public void addition_isCorrect() throws Exception {
-        assertEquals(45, 2 + 2);
+        assertEquals(44, 2 + 2);
     }
+
+    @Test
+    public void checkString()
+    {
+        assertEquals("hardys","hardy");
+    }
+
+
+
 }
